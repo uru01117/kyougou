@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-06-27T07:43:21.714702+00:00",
+  "source": "kakaku.com (価格.com) 格安SIM/キャンペーン比較ページ",
+  "items": [
+    {
+      "carrier": "ahamo",
+      "amount": null,
+      "note": "現在ページ内に金額表記の見出しが見つかりませんでした(要目視確認)",
+      "source_url": "https://kakaku.com/mobile_data/sim/mvno/11/campaign/",
+      "status": "no_amount_found"
+    },
+    {
+      "carrier": "楽天モバイル",
+      "amount": "110円",
+      "note": "[新規]7,000円相当楽天ポイント還元(要エントリー)",
+      "source_url": "https://kakaku.com/mobile_data/sim/mvno/37/campaign/",
+      "status": "ok"
+    },
+    {
+      "carrier": "ワイモバイル",
+      "amount": "330円",
+      "note": "[データ増量オプション加入]最大15,000円相当のPayPayポイントコードプレゼント",
+      "source_url": "https://kakaku.com/mobile_data/sim/mvno/45/campaign/",
+      "status": "ok"
+    },
+    {
+      "carrier": "UQ mobile",
+      "amount": "550円",
+      "note": "[MNPかつ増量オプションⅡ加入]au PAY残高20,000円相当ポイント還元",
+      "source_url": "https://kakaku.com/mobile_data/sim/mvno/49/campaign/",
+      "status": "ok"
+    },
+    {
+      "carrier": "povo2.0",
+      "amount": null,
+      "note": "現在ページ内に金額表記の見出しが見つかりませんでした(要目視確認)",
+      "source_url": "https://kakaku.com/mobile_data/sim/mvno/13/campaign/",
+      "status": "no_amount_found"
+    }
+  ]
+}
