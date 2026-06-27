@@ -1,1 +1,37 @@
-update-campaigns.yml
+
+name: update-campaigns
+
+on:
+  schedule:
+    # 毎日 日本時間 9:00 (UTC 0:00) に実行
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}   # 手動実行ボタンも使えるようにする
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリを取得
+        uses: actions/checkout@v4
+
+      - name: Pythonをセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 必要なライブラリをインストール
+        run: pip install requests beautifulsoup4
+
+      - name: キャンペーン情報を取得
+        run: python fetch_campaigns.py
+
+      - name: campaigns.json をコミット
+        run: |
+          git config user.name "competitor-watch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add campaigns.json
+          git diff --quiet --cached || git commit -m "campaigns.json を自動更新"
+          git push
