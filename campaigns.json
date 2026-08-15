@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T00:59:29.139838+00:00",
+  "updated_at": "2026-08-15T00:34:56.318887+00:00",
   "source": "kakaku.com (価格.com) 格安SIM/キャンペーン比較ページ",
   "items": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "carrier": "ワイモバイル",
-      "amount": "330円",
+      "amount": "15,000円相当",
       "note": "[データ増量オプション加入]最大15,000円相当のPayPayポイントコードプレゼント",
       "source_url": "https://kakaku.com/mobile_data/sim/mvno/45/campaign/",
       "status": "ok"
