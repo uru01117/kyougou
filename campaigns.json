@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T05:33:23.561105+00:00",
+  "updated_at": "2026-08-28T07:29:07.661624+00:00",
   "source": "kakaku.com (価格.com) 格安SIM/キャンペーン比較ページ",
   "items": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "carrier": "ワイモバイル",
-      "amount": "1,100円",
+      "amount": "330円",
       "note": "[データ増量オプション加入]最大15,000円相当のPayPayポイントコードプレゼント",
       "source_url": "https://kakaku.com/mobile_data/sim/mvno/45/campaign/",
       "status": "ok"
@@ -26,7 +26,7 @@
     {
       "carrier": "UQ mobile",
       "amount": "550円",
-      "note": "39歳以下のお客さまを対象に、適用条件を満たした月の翌月から12か月間、「コミコミプランバリュー」の月額料金を550円割引します。①、②の条件を満たす方が対象です。①新たに「コミコミプランバリュー」に加入すること②5歳以上39歳以下であること。新規契約、MNP、プラン変更、番号移行いずれのお手続きでもご加入いただけます。詳細は公式サイトをご確認ください。",
+      "note": "[MNPかつ増量オプションⅡ加入]au PAY残高20,000円相当ポイント還元",
       "source_url": "https://kakaku.com/mobile_data/sim/mvno/49/campaign/",
       "status": "ok"
     },
