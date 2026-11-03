@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T03:09:53.146452+00:00",
+  "updated_at": "2026-11-03T04:26:19.842981+00:00",
   "source": "kakaku.com (価格.com) 格安SIM/キャンペーン比較ページ",
   "items": [
     {
@@ -26,7 +26,7 @@
     {
       "carrier": "UQ mobile",
       "amount": "550円",
-      "note": "[MNPかつ増量オプションⅡ加入]au PAY残高20,000円相当ポイント還元",
+      "note": "増量オプションⅡ(550円/月)が7か月無料となります。",
       "source_url": "https://kakaku.com/mobile_data/sim/mvno/49/campaign/",
       "status": "ok"
     },
